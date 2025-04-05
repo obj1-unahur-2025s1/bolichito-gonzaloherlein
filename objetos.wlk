@@ -50,27 +50,20 @@ object biblioteca{
 object muñeco{
   method color() = celeste
   method material() = vidrio
-  var peso = 0
+  var peso = 100
 
-  method cambiarPeso(nuevoPeso){
-    peso = nuevoPeso
-  }
-
+  method cambiarPeso(nuevoPeso){peso = nuevoPeso}
   method peso() = peso
 }
 
 object placa{
-  var color = cobre
+  var color = rojo
   method material() = cobre
   var peso = 0
 
-  method cambiarPeso(nuevoPeso){
-    peso = nuevoPeso
-  }
+  method cambiarPeso(nuevoPeso) {peso = nuevoPeso}
 
-  method cambiarColor(nuevoColor){
-    color = nuevoColor
-  }
+  method cambiarColor(nuevoColor){color = nuevoColor}
 
   method peso() = peso
   method color() = color
